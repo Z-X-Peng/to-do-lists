@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="styles.css" rel="stylesheet">
+        <title>TODO LISTS!</title>
+        <script src="functions.js"></script>
+
+    </head>
+    <body>
+        <h1 id="myHeader">TO DO List</h1>
+
+        <!-- STEPs 1 and 2 below here  -->
+        <!-- <button  type=”button” id=”addButton” value=”Add” onclick=”addTask()”>Add</button> -->
+        <input type="button" id="addButton" value="Add" onclick="addTask()" />
+
+        <input type="text" id="input" placeholder="enter task..."></input>
+        <hr>
+
+        <ul id="tasks">
+
+        <li>
+
+            <input type="button" class="done" onclick="markDone(this.parentNode)" value="&#x2713;" />
+
+            <input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" />
+
+            <input type="button" class="important" onclick="important(this.parentNode)" value="!" />
+
+            make todo list
+
+        </li>
+
+        </ul>
+
+        <hr>
+
+        <!-- STEPs 8 and 9 below here  -->
+        <div id="divabout" class="aboutcolor">
+            <!-- <button onclick="doAbout()">About</button> -->
+        </div>
+        <button onclick="doAbout()">About</button>
+        <button onclick="clearAbout()">Clear</button>
+        <!-- STEP 13 below here  -->
+
+    </body>
+</html>
+
+
+
+
+
+
+
