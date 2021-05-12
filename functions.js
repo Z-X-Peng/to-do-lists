@@ -36,7 +36,7 @@
             /* Step 11 below here */
             function doAbout() {
 
-                divabout.innerHTML = 'to do list';
+                divabout.innerHTML = 'Below the add botton, write down the tasks you need to do, and click the add botton, you have created a new task waiting to finish. After completing these tasks, click the tick button, then click the cross button, now you have canceled the task. Notice: you need to firstly click the tick button, then the cross button, otherwise, you cannot clear the task. You can click the exclamation button, so that the task gets blue, which will mention you that this task is very important';
             }
 
             /* Step 14 below here */
